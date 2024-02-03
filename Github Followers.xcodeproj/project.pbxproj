@@ -23,6 +23,7 @@
 		C85707582B517B850088C175 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85707572B517B850088C175 /* UIViewController+Ext.swift */; };
 		C85707632B51CC390088C175 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85707622B51CC390088C175 /* Follower.swift */; };
 		C85707652B51CCAC0088C175 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85707642B51CCAC0088C175 /* User.swift */; };
+		C87169F22B6E61BB004CC13C /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87169F12B6E61BB004CC13C /* ErrorMessage.swift */; };
 		C88702B92B5D782400894D05 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88702B82B5D782400894D05 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		C85707572B517B850088C175 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		C85707622B51CC390088C175 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		C85707642B51CCAC0088C175 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C87169F12B6E61BB004CC13C /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		C88702B82B5D782400894D05 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 		C806B53C2B4C88AC0022202D /* Github Followers */ = {
 			isa = PBXGroup;
 			children = (
+				C87169F02B6E61AD004CC13C /* Utilities */,
 				C88702B72B5D781800894D05 /* Managers */,
 				C85707612B51CC2B0088C175 /* Model */,
 				C857075B2B517E130088C175 /* Extensions */,
@@ -138,6 +141,14 @@
 				C85707642B51CCAC0088C175 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C87169F02B6E61AD004CC13C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C87169F12B6E61BB004CC13C /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		C88702B72B5D781800894D05 /* Managers */ = {
@@ -230,6 +241,7 @@
 				C85707502B5173EC0088C175 /* GFTitleLabel.swift in Sources */,
 				C85707392B4D82790088C175 /* SearchViewController.swift in Sources */,
 				C806B53E2B4C88AC0022202D /* AppDelegate.swift in Sources */,
+				C87169F22B6E61BB004CC13C /* ErrorMessage.swift in Sources */,
 				C88702B92B5D782400894D05 /* NetworkManager.swift in Sources */,
 				C806B5402B4C88AC0022202D /* SceneDelegate.swift in Sources */,
 				C85707562B5177300088C175 /* GFAlertContainerView.swift in Sources */,
