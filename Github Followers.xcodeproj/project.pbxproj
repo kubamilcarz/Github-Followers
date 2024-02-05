@@ -26,6 +26,7 @@
 		C87169F22B6E61BB004CC13C /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87169F12B6E61BB004CC13C /* ErrorMessage.swift */; };
 		C87169F52B6E65D4004CC13C /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87169F42B6E65D4004CC13C /* FollowerCell.swift */; };
 		C87169F72B6E6619004CC13C /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87169F62B6E6619004CC13C /* GFAvatarImageView.swift */; };
+		C87169FB2B70EC57004CC13C /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87169FA2B70EC57004CC13C /* UIHelper.swift */; };
 		C88702B92B5D782400894D05 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88702B82B5D782400894D05 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		C87169F12B6E61BB004CC13C /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		C87169F42B6E65D4004CC13C /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		C87169F62B6E6619004CC13C /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		C87169FA2B70EC57004CC13C /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		C88702B82B5D782400894D05 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				C87169F12B6E61BB004CC13C /* ErrorMessage.swift */,
+				C87169FA2B70EC57004CC13C /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				C85707392B4D82790088C175 /* SearchViewController.swift in Sources */,
 				C806B53E2B4C88AC0022202D /* AppDelegate.swift in Sources */,
 				C87169F22B6E61BB004CC13C /* ErrorMessage.swift in Sources */,
+				C87169FB2B70EC57004CC13C /* UIHelper.swift in Sources */,
 				C88702B92B5D782400894D05 /* NetworkManager.swift in Sources */,
 				C806B5402B4C88AC0022202D /* SceneDelegate.swift in Sources */,
 				C85707562B5177300088C175 /* GFAlertContainerView.swift in Sources */,
