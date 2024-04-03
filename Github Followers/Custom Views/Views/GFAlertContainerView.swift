@@ -20,12 +20,6 @@ class GFAlertContainerView: UIView {
     }
     
     
-    init() {
-        super.init(frame: .zero)
-        configure()
-    }
-    
-    
     private func configure() {
         backgroundColor = .systemBackground
         

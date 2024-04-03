@@ -12,6 +12,7 @@ class FavoritesListViewController: GFDataLoadingViewController {
     let tableView = UITableView()
     var favorites: [Follower] = []
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,6 +20,7 @@ class FavoritesListViewController: GFDataLoadingViewController {
         configureTableView()
         getFavorites()
     }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -53,19 +55,24 @@ class FavoritesListViewController: GFDataLoadingViewController {
             
             switch result {
             case .success(let favorites):
-                if favorites.isEmpty {
-                    showEmptyStateView(with: "No Favorites?\nAdd one on the follower screen.", in: self.view)
-                } else {
-                    self.favorites = favorites
-                    
-                    DispatchQueue.main.async {
-                        self.tableView.reloadData()
-                        self.view.bringSubviewToFront(self.tableView)
-                    }
-                }
+                self.updateUI(with: favorites)
                 
             case .failure(let error):
                 self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "OK")
+            }
+        }
+    }
+    
+    
+    func updateUI(with favorites: [Follower]) {
+        if favorites.isEmpty {
+            showEmptyStateView(with: "No Favorites?\nAdd one on the follower screen.", in: self.view)
+        } else {
+            self.favorites = favorites
+            
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+                self.view.bringSubviewToFront(self.tableView)
             }
         }
     }
@@ -92,7 +99,7 @@ extension FavoritesListViewController: UITableViewDataSource, UITableViewDelegat
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let favorite = favorites[indexPath.row]
         
-        let destVC = FollowerListViewController(username: favorite.login)
+        let destVC   = FollowerListViewController(username: favorite.login)
         navigationController?.pushViewController(destVC, animated: true)
     }
     
@@ -112,5 +119,4 @@ extension FavoritesListViewController: UITableViewDataSource, UITableViewDelegat
             self.presentGFAlertOnMainThread(title: "Unable to remove", message: error.rawValue, buttonTitle: "OK")
         }
     }
-    
 }

@@ -7,11 +7,9 @@
 
 import UIKit
 
-
 protocol UserInfoViewControllerDelegate: AnyObject {
     func didRequestFollowers(for username: String)
 }
-
 
 class UserInfoViewController: GFDataLoadingViewController {
     
@@ -123,14 +121,14 @@ class UserInfoViewController: GFDataLoadingViewController {
     }
     
 
-    @objc
-    func dismissVC() {
+    @objc func dismissVC() {
         dismiss(animated: true)
     }
 }
 
 
 extension UserInfoViewController: GFRepoItemVCDelegate {
+    
     func didTapGithubProfile(for user: User) {
         guard let url = URL(string: user.htmlUrl) else {
             presentGFAlertOnMainThread(title: "Invalid URL", message: "The URL attached to this user is invalid", buttonTitle: "OK")
@@ -143,6 +141,7 @@ extension UserInfoViewController: GFRepoItemVCDelegate {
 
 
 extension UserInfoViewController: GFFollowerItemVCDelegate {
+    
     func didTapGetFollowers(for user: User) {
         guard user.followers != 0 else {
             presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers. What a shame :/", buttonTitle: "So sad")

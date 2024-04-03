@@ -208,8 +208,8 @@
 		C87169F02B6E61AD004CC13C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				C87169F12B6E61BB004CC13C /* ErrorMessage.swift */,
 				C87169FA2B70EC57004CC13C /* UIHelper.swift */,
+				C87169F12B6E61BB004CC13C /* ErrorMessage.swift */,
 				C857E43F2BA1D9E00004DD77 /* Constants.swift */,
 			);
 			path = Utilities;
