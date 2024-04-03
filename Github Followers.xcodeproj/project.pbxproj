@@ -18,6 +18,7 @@
 		C810F7DE2BAB4FC500BAC648 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C810F7DD2BAB4FC500BAC648 /* Date+Ext.swift */; };
 		C810F7E02BAB4FE000BAC648 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C810F7DF2BAB4FE000BAC648 /* String+Ext.swift */; };
 		C84DF5CB2BBD85B400EA5A45 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DF5CA2BBD85B400EA5A45 /* PersistenceManager.swift */; };
+		C84DF5CD2BBD8EAA00EA5A45 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DF5CC2BBD8EAA00EA5A45 /* FavoriteCell.swift */; };
 		C85707392B4D82790088C175 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85707382B4D82790088C175 /* SearchViewController.swift */; };
 		C857073B2B4D82A30088C175 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C857073A2B4D82A30088C175 /* FavoritesListViewController.swift */; };
 		C857074A2B5163230088C175 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85707492B5163230088C175 /* GFButton.swift */; };
@@ -56,6 +57,7 @@
 		C810F7DD2BAB4FC500BAC648 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		C810F7DF2BAB4FE000BAC648 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		C84DF5CA2BBD85B400EA5A45 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		C84DF5CC2BBD8EAA00EA5A45 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		C85707382B4D82790088C175 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C857073A2B4D82A30088C175 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		C85707492B5163230088C175 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				C87169F42B6E65D4004CC13C /* FollowerCell.swift */,
+				C84DF5CC2BBD8EAA00EA5A45 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				C85707652B51CCAC0088C175 /* User.swift in Sources */,
 				C85707522B5175220088C175 /* GFBodyLabel.swift in Sources */,
 				C84DF5CB2BBD85B400EA5A45 /* PersistenceManager.swift in Sources */,
+				C84DF5CD2BBD8EAA00EA5A45 /* FavoriteCell.swift in Sources */,
 				C810F7D92BAB4B2500BAC648 /* GFRepoItemVC.swift in Sources */,
 				C87169F72B6E6619004CC13C /* GFAvatarImageView.swift in Sources */,
 				C87169F52B6E65D4004CC13C /* FollowerCell.swift in Sources */,
