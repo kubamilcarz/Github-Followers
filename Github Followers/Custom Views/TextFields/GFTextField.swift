@@ -39,6 +39,8 @@ class GFTextField: UITextField {
         autocapitalizationType = .none
         returnKeyType = .go
         
+        clearButtonMode = .whileEditing // xmark in the textfield while editing
+        
         placeholder = "Enter a username"
     }
 }
