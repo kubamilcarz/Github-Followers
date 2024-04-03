@@ -21,6 +21,7 @@
 		C84DF5D02BBD957400EA5A45 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DF5CF2BBD957400EA5A45 /* GFTabBarController.swift */; };
 		C84DF5D22BBDA5BA00EA5A45 /* GFDataLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DF5D12BBDA5BA00EA5A45 /* GFDataLoadingViewController.swift */; };
 		C84DF5D42BBDACA900EA5A45 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DF5D32BBDACA900EA5A45 /* UIView+Ext.swift */; };
+		C84DF5D62BBDC09B00EA5A45 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84DF5D52BBDC09B00EA5A45 /* UITableView+Ext.swift */; };
 		C85707392B4D82790088C175 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85707382B4D82790088C175 /* SearchViewController.swift */; };
 		C857073B2B4D82A30088C175 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C857073A2B4D82A30088C175 /* FavoritesListViewController.swift */; };
 		C857074A2B5163230088C175 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85707492B5163230088C175 /* GFButton.swift */; };
@@ -62,6 +63,7 @@
 		C84DF5CF2BBD957400EA5A45 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		C84DF5D12BBDA5BA00EA5A45 /* GFDataLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingViewController.swift; sourceTree = "<group>"; };
 		C84DF5D32BBDACA900EA5A45 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		C84DF5D52BBDC09B00EA5A45 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 		C85707382B4D82790088C175 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C857073A2B4D82A30088C175 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		C85707492B5163230088C175 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				C85707572B517B850088C175 /* UIViewController+Ext.swift */,
 				C810F7DD2BAB4FC500BAC648 /* Date+Ext.swift */,
 				C84DF5D32BBDACA900EA5A45 /* UIView+Ext.swift */,
+				C84DF5D52BBDC09B00EA5A45 /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				C806B5402B4C88AC0022202D /* SceneDelegate.swift in Sources */,
 				C810F7D52BAB06F700BAC648 /* GFItemInfoView.swift in Sources */,
 				C85707562B5177300088C175 /* GFAlertContainerView.swift in Sources */,
+				C84DF5D62BBDC09B00EA5A45 /* UITableView+Ext.swift in Sources */,
 				C857E4402BA1D9E00004DD77 /* Constants.swift in Sources */,
 				C84DF5D02BBD957400EA5A45 /* GFTabBarController.swift in Sources */,
 			);
